@@ -1,6 +1,5 @@
-import { fetchInitialRecipes } from "./utils";
-import { addRecipe } from "./utils";
-console.log("Im here!!!");
+import { fetchInitialRecipes } from "./utils.js";
+import { addRecipe } from "./utils.js";
 
 const recipesContainer = document.getElementById('recipes');
 const addRecipeButton = document.getElementById('addRecipeButton'); 
