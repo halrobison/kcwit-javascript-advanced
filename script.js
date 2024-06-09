@@ -20,7 +20,6 @@ function displayRecipes(recipes) {
 };
 
 async function handleAddRecipe() {
-    console.log("hello");
     const drinkName = prompt('Add a name for your new drink:');
     const ingredients = prompt('Enter ingredients (comma separated):').split(',');
     const instructions = prompt('Add instructions for making your drink:');
